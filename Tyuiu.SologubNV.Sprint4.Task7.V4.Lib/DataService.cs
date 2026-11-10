@@ -14,7 +14,7 @@ namespace Tyuiu.SologubNV.Sprint4.Task7.V4.Lib
                     array[i, j] = int.Parse(value[i * m + j].ToString());
                     if (array[i, j] % 2 == 1)
                     {
-                        sum += 1;
+                        sum += array[i,j];
                     }
                 }
 

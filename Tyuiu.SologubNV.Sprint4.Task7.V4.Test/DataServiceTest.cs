@@ -12,7 +12,7 @@ namespace Tyuiu.SologubNV.Sprint4.Task7.V4.Test
             int rows = 3;
             int cols = 4;
             int res = ds.Calculate(rows, cols, a);
-            int wait = 6;
+            int wait = 36;
             Assert.AreEqual(wait,res);
         }
     }
